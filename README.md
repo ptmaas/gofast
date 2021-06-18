@@ -25,6 +25,7 @@ Data is taken from youtube video between seconds 12 and 17. The calculation
 uses the downward angle and left angle as follows:
 
 Down angle (deg)   : (-26) - (-28)
+
 Left angle (deg)   : 43 - 48
 
 
@@ -47,6 +48,18 @@ $$
 We calculate the $(x, y)$ coordinates for 6 points of time (12 - 17 sec in the
 video), so the time interval between $(x, y)$ points is 1 second. Results are
 shown in `results.md`.
+
+
+## Estimate speed of object
+
+We also print the velocity (x, y) components, e.g.
+
+velocity components [m / s] [v_x, v_y] = [[-384, 8], [-375, 3], [-367, -1], [-359, -6], [-351, -10]]
+
+which shows that the x-component is largest, meaning the object and plane move
+along straight line towards each other. This makes it is easy to compute the
+ground speed of object: just subtract the ground speed of plane from the
+x-component since that comprises more than 97% of the speed.
 
 
 ## Conclusions
