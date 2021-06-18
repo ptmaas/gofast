@@ -53,7 +53,7 @@ We also print the velocity (x, y) components, e.g.
 velocity components [m / s] [v_x, v_y] = [[-384, 8], [-375, 3], [-367, -1], [-359, -6], [-351, -10]]
 
 which shows that the x-component is largest, meaning the object and plane move
-along straight line towards each other. This makes it is easy to compute the
+along a straight line towards each other. This makes it is easy to compute the
 ground speed of object: just subtract the ground speed of plane from the
 x-component since that comprises more than 97% of the speed.
 
