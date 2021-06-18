@@ -34,19 +34,15 @@ Left angle (deg)   : 43 - 48
 Using altitude of plane (alt) and the down angle (d) we calculate the
 horizontal distance d2 of the object,
 
-$$
 d2 = alt / tan(d).
-$$
 
 We next calculate the x and y coordinates of the object in the frame of plane
 using the left angle (l),
 
-$$
 x = cos(l) * d2,  y = sin(l) * d2.
-$$
 
-We calculate the $(x, y)$ coordinates for 6 points of time (12 - 17 sec in the
-video), so the time interval between $(x, y)$ points is 1 second. Results are
+We calculate the (x, y) coordinates for 6 points of time (12 - 17 sec in the
+video), so the time interval between (x, y) points is 1 second. Results are
 shown in `results.md`.
 
 
