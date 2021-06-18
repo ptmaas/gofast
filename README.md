@@ -43,7 +43,7 @@ x = cos(l) * d2,  y = sin(l) * d2.
 
 We calculate the (x, y) coordinates for 6 points of time (12 - 17 sec in the
 video), so the time interval between (x, y) points is 1 second. Results are
-shown in `results.md`.
+shown in `results.txt`.
 
 
 ## Estimate speed of object
